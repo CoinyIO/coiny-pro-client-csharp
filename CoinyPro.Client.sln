@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinyPro.Client", "CoinyPro.Client\CoinyPro.Client.csproj", "{B8728681-BCD0-4049-9C28-E3CF487244CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinyPro.Client.UnitTests", "CoinyPro.Client.UnitTests\CoinyPro.Client.UnitTests.csproj", "{54309130-E833-45F9-8FEC-996FC20205B0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8728681-BCD0-4049-9C28-E3CF487244CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8728681-BCD0-4049-9C28-E3CF487244CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8728681-BCD0-4049-9C28-E3CF487244CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8728681-BCD0-4049-9C28-E3CF487244CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54309130-E833-45F9-8FEC-996FC20205B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54309130-E833-45F9-8FEC-996FC20205B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54309130-E833-45F9-8FEC-996FC20205B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54309130-E833-45F9-8FEC-996FC20205B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
