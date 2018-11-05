@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CoinyPro.Client.Extensions;
@@ -53,6 +51,11 @@ namespace CoinyPro.Client.Services
         {
             var data = JsonConvert.SerializeObject(orderIds);
             return await Client.DeleteItemAsync(EndPoint, data);
+        }
+
+        public async Task<BaseResponseWrapper<OrderResponse>> GetOrderAsync(string orderId)
+        {
+            return await GetAsync(orderId);
         }
     }
 

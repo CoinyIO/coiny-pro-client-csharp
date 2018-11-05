@@ -31,5 +31,12 @@ namespace CoinyPro.Client.Interfaces
         /// <param name="orderIds">list of order ids</param>
         /// <returns>200 or 204 will be returned.</returns>
         Task<HttpResponseMessage> CancelOrdersAsync(List<string> orderIds);
+
+        /// <summary>
+        /// Get User Specific Order
+        /// </summary>
+        /// <param name="orderId">Id of specific order</param>
+        /// <returns></returns>
+        Task<BaseResponseWrapper<OrderResponse>> GetOrderAsync(string orderId);
     }
 }
